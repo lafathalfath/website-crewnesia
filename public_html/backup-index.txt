@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Crewnesia | Ruang Kreatif</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/crewnesLogo.png" rel="icon">
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Company - v4.7.0
+  * Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html"><span>CREW</span>NESIA</a></h1>
+      <!-- <img src="./assets/img/Logo bener PNG Ungu.png" alt="crewnesia" width="110px"> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+
+      <nav id="navbar" class="navbar order-last order-lg-0 ms-auto">
+        <ul>
+          <!-- <li><a href="index.html" class="active">Kampung</a></li> -->
+          <li class="dropdown"><a href="index.html"><span>Beranda</span> <i class="#"></i></a>
+          <li class="dropdown"><a href="#"><span>Semua Layanan</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <!-- <li><a href="about.html">Manajemen Sosial Media</a></li> -->
+              <li><a href="hargaSosmed.html"><span>Manajemen Sosial Media</span></a></li>
+              <li><a href="hargaDesain.html"><span>Desain</span></a></li>
+              <li><a href="hargaFoto.html"><span>Foto</span></a></li>
+              <li><a href="hargaVideo.html"><span>Video</span></i></a></li>
+              <li><a href="hargaWeb.html"><span>Pembuatan Website</span></i></a>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Kampung Marketing Gen-Z</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="customerService.html"><span>Customer Service</span></a></li>
+              <li><a href="modelTestimoni.html"><span>Model Testimoni</span></a></li>
+              <li><a href="voiceOver.html"><span>Voice Over</span></a></li>
+            </ul>
+          </li>
+          <li><a href="portfolio.html">Portofolio</a></li>
+          <!--<li><a href="anakPerusahaan.html">Anak Perusahaan</a></li>-->
+          <li class="dropdown"><a href="#"><span></span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links d-flex">
+        <!-- <a href="#" class="twitter"><i class="bu bi-twitter"></i></a> -->
+        <!-- <a href="#" class="facebook"><i class="bu bi-facebook"></i></a> -->
+        <a href="https://www.instagram.com/crewnesia/" class="instagram" target="_blank"><i class="bu bi-instagram"></i></a>
+        <a href="https://vt.tiktok.com/ZSd1rJqMb/" class="tiktok" target="_blank"><i class="bu bi-tiktok"></i></a>
+        <a href="https://www.youtube.com/channel/UC_j3YyY2RCkWt292fFfuNsg" class="youtube" target="_blank"><i class="bu bi-youtube"></i></a>
+        <!-- <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a> -->
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+    <!-- ======= Breadcrumbs ======= -->
+    <!-- <section id="breadcrumbs" class="breadcrumbs"> -->
+      <div class="container">
+
+        <!-- <div class="d-flex justify-content-between align-items-center">
+          <h2></h2> -->
+          <ol>
+            <li><a href="#"><a></li>
+            <li></li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Breadcrumbs -->
+
+  <!-- ======= Hero Section ======= -->
+  <!-- <section id="hero"> -->
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video playsinline autoplay muted loop src="assets/video/fotoStudio.mp4" class="d-block w-100" alt="...">
+        </div>
+        <!--<div class="carousel-item">-->
+          <!--<video playsinline autoplay muted loop src="assets/video/crewnesiaBumber.mp4" class="d-block w-100" alt="...">-->
+        <!--</div>-->
+        <div class="carousel-item">
+          <video playsinline autoplay muted loop src="assets/video/fotoProduk.mp4" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel"> -->
+
+      <!-- <div class="carousel-inner" role="listbox">  -->
+
+        <!-- Slide 1
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <video playsinline autoplay muted loop style="display: block; width: 100%;">
+              <source src="assets/video/rocca.mp4" type="video/mp4">
+              </video>
+          </div>
+        </div> -->
+
+         <!-- Slide 2 -->
+         <div class="carousel-item active">
+          <div class="carousel-container"></div>
+          <!-- <video playsinline autoplay muted loop style="margin: 0px; width: 100%; height: 111%; display: block; background-color: #fff;">  -->
+                  <!-- <source src="assets/video/fotoStudio.mp4" type="video/mp4"> -->
+                  </video>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="carousel-container"></div>
+          <!-- <video playsinline autoplay muted loop style="margin: 0px; width: 100%; height: 111%; display: block; background-color: #fff;">  -->
+                  <!-- <source src="assets/video/crewnesiaBumber.mp4" type="video/mp4"> -->
+                  </video>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+          <div class="carousel-container"></div>
+          <!-- <video playsinline autoplay muted loop style="margin: 0px; width: 100%; height: 111%; display: block; background-color: #fff;"> -->
+                  <!-- <source src="assets/video/fotoProduk.mp4" type="video/mp4"> -->
+                  </video>
+        </div>
+
+      </div>
+
+      <!-- <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev"> -->
+        <!-- <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span> -->
+      </a>
+
+      <!-- <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next"> -->
+        <!-- <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span> -->
+      </a>
+
+      <ol class="carousel-indicators visually-hidden" id="hero-carousel-indicators"></ol>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about-us" class="about-us">
+      <div data-aos="fade-up">
+        <div class="row content">
+          <div class="col-lg-6 aboutUsHeading" data-aos="fade-right" style="padding-left: 25px;">
+            <h2><span>Crew</span>nesia</h2>
+            <h3>Sebuah Agensi Digital Marketing yang siap bekerja sama untuk menerjemahkan ide-ide Kamu menjadi sebuah pesan kreatif yang penuh makna.</h3>
+            <p>
+              Kamu Ingin Membangun Tim Bisnis Online? Disini Tempatnya <em>Hire Talent</em> Berpengalaman Tanpa Ribet, Biaya Terjangkau.
+            </p>
+            <ul class="listAbout"> 
+              <li><i class="ri-check-double-line" style="color:#9D3393;"></i> Lebih dari 1000 Tim Profesional</li>
+              <li><i class="ri-check-double-line" style="color:#9D3393;"></i> Terdiri dari Anak Muda Kreatif</li>
+              <li><i class="ri-check-double-line" style="color:#9D3393;"></i> Bebas Konsultasi</li>
+              <li><i class="ri-check-double-line" style="color:#9D3393;"></i> Selalu Update</li>
+              <li><i class="ri-check-double-line" style="color:#9D3393;"></i> Respon Cepat</li>
+              <li><i class="ri-check-double-line" style="color:#9D3393;"></i> Layanan Kreatif Lengkap</li>
+            </ul>
+            <p class="fst-italic">
+              Percayakan konten media sosial usaha Anda kepada Kami. <br>Anda puas kami senang.
+            </p>
+            <a href="https://wa.me/6281380937133">
+              <button class="btn btnAbout">
+                Kolaborasi Yuk
+              </button>
+            </a>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+            <img src="./assets/img/bg/bg2.png" class="w-100" style="margin-top: 0px;">
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End About Us Section -->
+
+    <!-- ======= Services Section ======= -->
+    <!-- <section id="services" class="services section-bg"> -->
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <!-- <img src="./assets/img/portfolio/porto1.jpg" style="width: 100%;"> -->
+              <!-- <h4><a href="">Portofolio 1</a></h4> -->
+              <!-- <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p> -->
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200"> -->
+            <div class="icon-box iconbox-orange ">
+              <!-- <img src="./assets/img/portfolio/porto2.jpg" style="width: 100%;"> -->
+              <!-- <h4><a href="">Portfolio 2</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p> -->
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200"> -->
+            <div class="icon-box iconbox-orange ">
+              <!-- <img src="./assets/img/portfolio/porto3.jpg" style="width: 100%;"> -->
+              <!-- <h4><a href="">Portfolio 2</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p> -->
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200"> -->
+            <div class="icon-box iconbox-orange ">
+              <!-- <img src="./assets/img/portfolio/porto4.jpg" style="width: 100%;"> -->
+              <!-- <h4><a href="">Portfolio 2</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p> -->
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200"> -->
+            <div class="icon-box iconbox-orange ">
+              <!-- <img src="./assets/img/portfolio/porto5.jpg" style="width: 100%;"> -->
+              <!-- <h4><a href="">Portfolio 2</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p> -->
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200"> -->
+            <div class="icon-box iconbox-orange ">
+              <!-- <img src="./assets/img/portfolio/porto6.jpg" style="width: 100%;"> -->
+              <!-- <h4><a href="">Portfolio 2</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p> -->
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                </svg>
+                <i class="bx bx-tachometer"></i>
+              </div>
+              <h4><a href="">Magni Dolores</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-yellow">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
+                </svg>
+                <i class="bx bx-layer"></i>
+              </div>
+              <h4><a href="">Nemo Enim</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-red">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                </svg>
+                <i class="bx bx-slideshow"></i>
+              </div>
+              <h4><a href="">Dele Cardo</a></h4>
+              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-teal">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                <i class="bx bx-arch"></i>
+              </div>
+              <h4><a href="">Divera Don</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+
+        </div> -->
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ====Testimonial=== -->
+    <!-- <div class="section-title">
+      <h2>Testimonials</h2>
+    <div class="owl-carousel owl-theme mt-5">
+      <div class="owl-item">
+          <div class="card">
+              <div class="img-card"> <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> </div>
+              <div class="testimonial mt-4 mb-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita dicta doloremque odit saepe quo natus aut accusantium alias blanditiis. </div>
+              <div class="name"> Denis Richie </div>
+          </div>
+      </div>
+      <div class="owl-item">
+          <div class="card">
+              <div class="img-card"> <img src="https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt=""> </div>
+              <div class="testimonial mt-4 mb-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita dicta doloremque odit saepe quo natus aut accusantium alias blanditiis. </div>
+              <div class="name"> Lisa Sthalekar </div>
+          </div>
+      </div>
+      <div class="owl-item">
+          <div class="card">
+              <div class="img-card"> <img src="https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> </div>
+              <div class="testimonial mt-4 mb-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita dicta doloremque odit saepe quo natus aut accusantium alias blanditiis. </div>
+              <div class="name"> Elizabith Richie </div>
+          </div>
+      </div>
+      <div class="owl-item">
+          <div class="card">
+              <div class="img-card"> <img src="https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> </div>
+              <div class="testimonial mt-4 mb-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita dicta doloremque odit saepe quo natus aut accusantium alias blanditiis. </div>
+              <div class="name"> Daniel Xavier </div>
+          </div>
+      </div>
+      <div class="owl-item">
+          <div class="card">
+              <div class="img-card"> <img src="https://images.pexels.com/photos/1832959/pexels-photo-1832959.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> </div>
+              <div class="testimonial mt-4 mb-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita dicta doloremque odit saepe quo natus aut accusantium alias blanditiis. </div>
+              <div class="name"> Emma Watson </div>
+          </div>
+      </div>
+      <div class="owl-item">
+          <div class="card">
+              <div class="img-card"> <img src="https://images.pexels.com/photos/718261/pexels-photo-718261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""> </div>
+              <div class="testimonial mt-4 mb-2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita dicta doloremque odit saepe quo natus aut accusantium alias blanditiis. </div>
+              <div class="name"> Mohammad Imran </div>
+          </div>
+      </div>
+  </div> -->
+
+    <!-- </section>End Testimonials Section -->
+
+    <!-- ======= Our Clients Section ======= -->
+    
+    <section id="clients" class="clients">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Clients</h2>
+        </div>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
+
+                <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                    <img src="assets/img/clients/abusalam1.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                    <img src="assets/img/clients/dapurrafylla.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                    <img src="assets/img/clients/ixora1.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                    <img src="assets/img/clients/staynature1.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                    <img src="assets/img/clients/kelompokTani.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                    <img src="assets/img/clients/teras1.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                    <img src="assets/img/clients/Purobi.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+      
+                <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                    <img src="assets/img/clients/miraiSeafood.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col no-gutters clients-wrap clearfix" data-aos="fade-up">
+                <div class="row">
+                  <div class="client-logo">
+                    <img src="assets/img/clients/clinic.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+      
+                <div class="row">
+                  <div class="client-logo">
+                    <img src="assets/img/clients/evodis.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/abusalam1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/dapurrafylla.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/ixora1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/staynature1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/kelompokTani.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/teras1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/Purobi.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/miraiSeafood.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/clinic.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/evodis.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+        </div> -->
+
+      </div>
+    <!-- </section>End Our Clients Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Crewnesia</h3>
+            <p>
+              Science and Techno Park IPB University <br>
+              Jl. Taman Kencana No.3, RT.03/RW.03, Babakan, Kec. Bogor Tengah, Kota Bogor<br>
+              Jawa Barat, 16128<br><br>
+              <strong>Phone:</strong> <a href="https://wa.me/6281380937133" class="btn-buy" target="_blank" style="color:#838d96">+62 813 8093 7133</a><br>
+              <strong>Email:</strong> customercare@crewnesia.id<br>
+              <strong>Karir dan Magang:</strong> career@crewnesia.id<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Kampung Marketing Gen-Z</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="customerService.html">Customer Service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="modelTestimoni.html">Model Testimoni</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="voiceOver.html">Voice Over</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Semua Layanan</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="hargaSosmed.html" target="_blank">Manajemen Sosial Media</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hargaDesain.html" target="_blank">Desain</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hargaFoto.html" target="_blank">Foto</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hargaVideo.html" target="_blank">Video</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hargaFollowers.html" target="_blank">Followers</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hargaWeb.html" target="_blank">Pembuatan Website</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Dapatkan Informasi Promo Terbaru dan Lowongan Pekerjaan</h4>
+            <p>Tinggalkan email Anda untuk lebih dekat dengan Kami</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Crewnesia</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/company-free-html-bootstrap-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">Crewnesia 2022</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <!-- <a href="#" class="twitter"><i class="bu bi-twitter"></i></a> -->
+        <!-- <a href="#" class="facebook"><i class="bu bi-facebook"></i></a> -->
+        <a href="https://www.instagram.com/crewnesia/" class="instagram" target="_blank"><i class="bu bi-instagram"></i></a>
+        <a href="https://vt.tiktok.com/ZSd1rJqMb/" class="tiktok" target="_blank"><i class="bu bi-tiktok"></i></a>
+        <a href="https://www.youtube.com/channel/UC_j3YyY2RCkWt292fFfuNsg" class="youtube" target="_blank"><i class="bu bi-youtube"></i></a>
+        <!-- <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a> -->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Template Main JS File Testimoni -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+  <script>$(document).ready(function () {
+    var silder = 
+    $(".owl-carousel");
+    silder.owlCarousel({
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: false,
+    items: 1,
+    stagePadding: 20,
+    center: true,
+    nav: false,
+    margin: 50,
+    dots: true,
+    loop: true,
+    responsive: {
+    0: { items: 1 },
+    480: { items: 2 },
+    575: { items: 2 },
+    768: { items: 2 },
+    991: { items: 3 },
+    1200: { items: 4 }
+    }
+    });
+    });</script>
+
+</body>
+
+</html>
